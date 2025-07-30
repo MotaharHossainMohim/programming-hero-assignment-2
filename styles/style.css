@@ -303,3 +303,55 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.202);
 }
+/* Join Section Styles */
+.join-section {
+  background-image: url("../assets/news-letter-bg.png");
+  background-position: center;
+  background-size: cover;
+  height: 533px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.join-section h2 {
+  font-size: 50px;
+  margin-bottom: 23px;
+  font-weight: 700;
+}
+
+form {
+  display: flex;
+}
+
+input[type="text"] {
+  width: 644px;
+  padding: 12px 20px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+}
+
+input[type="text"]::placeholder {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  padding-left: 54px;
+  padding-right: 54px;
+  font-weight: 500;
+  background-color: #e95a08;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+}
