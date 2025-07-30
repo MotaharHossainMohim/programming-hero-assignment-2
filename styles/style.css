@@ -141,6 +141,10 @@
 /* Plants-Lover-section style */
 .plants-lover-section{
     display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 0px 150px;
+
     
 }
 .plants-lover-title{
@@ -148,4 +152,24 @@
     font-weight: 700;
     color: #000000;
 
+}
+.plant-lover-description{
+    font-size: 22px;
+    
+    
+    
+}
+.plants-lover-section ul li{
+    margin-bottom: 20px;
+}
+.plants-lover-img{
+    flex-shrink: 0;
+    position: relative;
+}
+.trusted-badge-img{
+    max-width: 286px;
+    max-height: 286px;
+    position: absolute;
+    top: -22%;
+    right: -15%;
 }
